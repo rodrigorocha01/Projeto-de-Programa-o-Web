@@ -1,0 +1,71 @@
+/* CSS */
+#msgEquipe
+    {
+    width: 300px;
+    height: 380px;
+    margin:0 auto;
+    padding: 20px;
+    background-color: rgba(215, 247, 250, 0.76);
+    text-align: left;
+    border: solid rgba(255, 255, 255, 0.89);
+    border-radius: 13px;
+    box-shadow: 5px 5px 5px 5px rgba(181, 181, 181, 0.63);
+    text-align: center;
+}
+
+
+#logins {
+    width: 300px;
+    height: 140px;
+    margin:auto;
+    padding: 20px;
+    background-color: rgba(215, 247, 250, 0.76);
+    text-align: center;
+    border: solid rgba(255, 255, 255, 0.89);
+    border-radius: 13px;
+    box-shadow: 5px 5px 5px 5px rgba(181, 181, 181, 0.63);
+}
+
+#cadastro{
+    width: 300px;
+    height: 380px;
+    margin:0 auto;
+    padding: 20px;
+    background-color: rgba(215, 247, 250, 0.76);
+    text-align: left;
+    border: solid rgba(255, 255, 255, 0.89);
+    border-radius: 13px;
+    box-shadow: 5px 5px 5px 5px rgba(181, 181, 181, 0.63);
+}
+#topoCad{
+    text-align: center;
+}
+nav{
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding: 0 auto;
+    background-color: rgba(215, 247, 250, 0.76);
+    text-align: center;
+    border: solid rgba(255, 255, 255, 0.89);
+    border-radius: 13px;
+    box-shadow: 5px 5px 5px 5px rgba(181, 181, 181, 0.63);
+    font-size: 14pt;
+    color: #000000;
+}
+a:link {text-decoration: none;color: #000000}
+a:active {text-decoration: none;}
+a:visited {text-decoration: none;color: #000000}
+a:hover {text-decoration: underline;color: #000000}
+
+#agendamento{
+    width: 320px;
+    height: auto;
+    margin:0 auto;
+    padding: 20px;
+    background-color: rgba(215, 247, 250, 0.76);
+    text-align: left;
+    border: solid rgba(255, 255, 255, 0.89);
+    border-radius: 13px;
+    box-shadow: 5px 5px 5px 5px rgba(181, 181, 181, 0.63);
+}
