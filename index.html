@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Votação</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/json.js"></script>
+    <script>
+        function logar(login,senha){  
+            var x = cliente.length;
+            for (i = 0; i < x; i++) {
+                if(login == cliente[i].login && senha == cliente[i].senha){
+                    document.getElementById("myForm").submit();
+                }else{
+                    $("#final").html("Login ou senha incorretos!!!");
+                }
+            }       
+        }
+    $(function(){
+      $("#btn").click(
+          function(){
+              var login = $("#login").val();
+              var senha = $("#senha").val();
+              logar(login,senha);
+          })     
+      }); 
+    </script>
+</head>
+<body>
+    <form id="myForm" action="2.html">
+        <div id="logins"> <b>Login</b>
+            <br>
+            <br> <b>Login</b>
+            <input type="text" placeholder="Usuario" id="login">
+            <br>
+            <br> <b>Senha</b>
+            <input type="text" placeholder="senha" id="senha">
+            <br>
+            <br>
+            <button type="button" id="btn">Login</button>&nbsp &nbsp <br>
+        <div id="final"></div></div>
+        <div id="final"></div>
+    </form>
+</body>
+
+</html>
